@@ -1,5 +1,6 @@
 package com.sallai.logview.utils;
 
+import com.alibaba.fastjson2.JSON;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,11 +8,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
 
 /**
- * @ClassName R
- * @Description TODO
- * @Author sallai
- * @Date 22:06 2023/10/29
- * @Version 1.0
+ * @className R
+ * @description TODO
+ * @author sallai
+ * @date 22:06 2023/10/29
+ * @version 1.0
  **/
 @Data
 @Builder
@@ -41,6 +42,10 @@ public class R {
     }
 
     public static R fail(String msg){
-        return R.builder().code(201).msg(StringUtils.hasText(msg)?msg:"请求失败").build();
+        return R.builder().code(202).msg(StringUtils.hasText(msg)?msg:"请求失败").build();
+    }
+
+    public String toJson() {
+       return JSON.toJSONString(this);
     }
 }

@@ -14,12 +14,12 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- * @ClassName Utils
- * @Description TODO
- * @Author sallai
+ * @className Utils
+ * @description TODO
+ * @author sallai
  * @Email sallai@aliyun.com
- * @Date 16:32 2023/11/5
- * @Version 1.0
+ * @date 16:32 2023/11/5
+ * @version 1.0
  **/
 public class Utils {
     private static final Log LOG = LogFactory.getLog(Utils.class);
@@ -264,8 +264,6 @@ public class Utils {
     /**
      * murmur hash 2.0, The murmur hash is a relatively fast hash function from http://murmurhash.googlepages.com/ for
      * platforms with efficient multiplication.
-     *
-     * @author Viliam Holub
      */
     public static long murmurhash2_64(final byte[] data, int length, int seed) {
         final long m = 0xc6a4a7935bd1e995L;

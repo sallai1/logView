@@ -33,11 +33,11 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @ClassName LogService
- * @Description TODO
- * @Author sallai
- * @Date 13:01 2023/10/29
- * @Version 1.0
+ * @className LogService
+ * @description TODO
+ * @author sallai
+ * @date 13:01 2023/10/29
+ * @version 1.0
  **/
 @Service
 @Slf4j
@@ -53,7 +53,6 @@ public class LogService {
 
     public LogInfoVo readLogFile(long line) {
         // 获取日志文件
-        log.info(logFile.toString());
         String logFileStr = logFile.toString();
         LogInfoVo logInfoVo = LogInfoVo.builder().build();
         if(!StringUtils.hasText(logFileStr)) {

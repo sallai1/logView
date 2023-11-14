@@ -1,13 +1,14 @@
 package com.sallai.logview.support.http;
 
 /**
- * @ClassName ResourceServlet
- * @Description TODO
- * @Author sallai
+ * @className ResourceServlet
+ * @description TODO
+ * @author sallai
  * @Email sallai@aliyun.com
- * @Date 16:24 2023/11/5
- * @Version 1.0
+ * @date 16:24 2023/11/5
+ * @version 1.0
  **/
+import com.sallai.logview.utils.R;
 import com.sallai.logview.utils.logView.Utils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -25,7 +26,7 @@ import java.io.IOException;
 public abstract class ResourceServlet extends HttpServlet {
     private static final Log LOG = LogFactory.getLog(ResourceServlet.class);
 
-    public static final String SESSION_USER_KEY = "druid-user";
+    public static final String SESSION_USER_KEY = "logview-user";
     public static final String PARAM_NAME_USERNAME = "loginUsername";
     public static final String PARAM_NAME_PASSWORD = "loginPassword";
     public static final String PARAM_NAME_ALLOW = "allow";
@@ -127,11 +128,27 @@ public abstract class ResourceServlet extends HttpServlet {
                 throws ServletException,
                 IOException {
             String filePath = getFilePath(fileName);
-
+            //页面资源
             if (filePath.endsWith(".html")) {
                 response.setContentType("text/html; charset=utf-8");
             }
-            if (fileName.endsWith(".jpg")) {
+            //图片资源
+            if (fileName.endsWith(".jpg") || fileName.endsWith(".jpeg")
+               || fileName.endsWith(".png")) {
+                byte[] bytes = Utils.readByteArrayFromResource(filePath);
+                if (bytes != null) {
+                    response.getOutputStream().write(bytes);
+                }
+                return;
+            } else if (fileName.endsWith(".ttf")) {
+                response.setContentType("font/ttf");
+                byte[] bytes = Utils.readByteArrayFromResource(filePath);
+                if (bytes != null) {
+                    response.getOutputStream().write(bytes);
+                }
+                return;
+            } else if (fileName.endsWith(".woff")) {
+                response.setContentType("font/woff");
                 byte[] bytes = Utils.readByteArrayFromResource(filePath);
                 if (bytes != null) {
                     response.getOutputStream().write(bytes);
@@ -252,9 +269,9 @@ public abstract class ResourceServlet extends HttpServlet {
                 String passwordParam = request.getParameter(PARAM_NAME_PASSWORD);
                 if (username.equals(usernameParam) && password.equals(passwordParam)) {
                     request.getSession().setAttribute(SESSION_USER_KEY, username);
-                    response.getWriter().print("success");
+                    response.getWriter().print(R.ok(null).setMsg("登录成功").toJson());
                 } else {
-                    response.getWriter().print("error");
+                    response.getWriter().print(R.fail(null).setMsg("用户名或密码错误").toJson());
                 }
                 return;
             }
@@ -266,6 +283,7 @@ public abstract class ResourceServlet extends HttpServlet {
                     && !("/index.html".equals(path) //
                     || path.startsWith("/static/css")//
                     || path.startsWith("/static/js") //
+                    || path.startsWith("/static/font") //
                     || path.startsWith("/static/img"))) {
                 if (contextPath.equals("") || contextPath.equals("/")) {
                     response.sendRedirect("/logView/index.html");
@@ -294,7 +312,6 @@ public abstract class ResourceServlet extends HttpServlet {
             }
 
             // find file in resources path
-
             returnResourceFile(path, uri, response);
         }
 

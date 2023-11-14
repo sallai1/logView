@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @ClassName LogViewServlet
- * @Description 日志查看servlet
- * @Author sallai
+ * @className LogViewServlet
+ * @description 日志查看servlet
+ * @author sallai
  * @Email sallai@aliyun.com
- * @Date 16:12 2023/11/5
- * @Version 1.0
+ * @date 16:12 2023/11/5
+ * @version 1.0
  **/
 
 public class LogViewServlet extends ResourceServlet{
@@ -24,7 +24,7 @@ public class LogViewServlet extends ResourceServlet{
     private static final long serialVersionUID = 1L;
 
     public LogViewServlet() {
-        super("static/logView");
+        super("logView");
     }
 
     @Override
@@ -52,15 +52,15 @@ public class LogViewServlet extends ResourceServlet{
 
         if ("".equals(path)) {
             if (contextPath.equals("") || contextPath.equals("/")) {
-                response.sendRedirect("/logView/index.html");
+                response.sendRedirect(uri+"/index.html");
             } else {
-                response.sendRedirect("logView/index.html");
+                response.sendRedirect(uri+"/index.html");
             }
             return;
         }
 
         if ("/".equals(path)) {
-            response.sendRedirect("index.html");
+            response.sendRedirect(uri+"/index.html");
             return;
         }
 

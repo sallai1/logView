@@ -6,11 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @ClassName LogInfo
- * @Description TODO
- * @Author sallai
- * @Date 21:10 2023/10/29
- * @Version 1.0
+ * @className LogInfo
+ * @description TODO
+ * @author sallai
+ * @date 21:10 2023/10/29
+ * @version 1.0
  **/
 @Data
 @Builder

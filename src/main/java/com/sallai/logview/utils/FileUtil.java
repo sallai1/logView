@@ -4,11 +4,11 @@ import java.io.File;
 import java.text.DecimalFormat;
 
 /**
- * @ClassName FileUtil
- * @Description TODO
- * @Author sallai
- * @Date 21:37 2023/10/29
- * @Version 1.0
+ * @className FileUtil
+ * @description TODO
+ * @author sallai
+ * @date 21:37 2023/10/29
+ * @version 1.0
  **/
 public class FileUtil {
     public static String formatFileSize(File file) {

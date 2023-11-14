@@ -1,12 +1,12 @@
 package com.sallai.logview.utils.logView;
 
 /**
- * @ClassName HexBin
- * @Description TODO
- * @Author sallai
+ * @className HexBin
+ * @description TODO
+ * @author sallai
  * @Email sallai@aliyun.com
- * @Date 16:43 2023/11/5
- * @Version 1.0
+ * @date 16:43 2023/11/5
+ * @version 1.0
  **/
 public final class HexBin {
     private static final int BASE_LENGTH = 128;

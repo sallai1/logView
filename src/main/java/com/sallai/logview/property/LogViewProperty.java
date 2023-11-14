@@ -4,11 +4,11 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @ClassName LogViewProperty
- * @Description TODO
- * @Author sallai
- * @Date 15:58 2023/11/5
- * @Version 1.0
+ * @className LogViewProperty
+ * @description TODO
+ * @author sallai
+ * @date 15:58 2023/11/5
+ * @version 1.0
  **/
 @ConfigurationProperties("logview")
 @Data
@@ -21,12 +21,12 @@ public class LogViewProperty {
     /**
      * 登录用户名
      */
-    private String loginName;
+    private String loginName = "admin";
 
     /**
      * 登录密码
      */
-    private String loginPassword;
+    private String loginPassword = "logview";
 
     /**
      *

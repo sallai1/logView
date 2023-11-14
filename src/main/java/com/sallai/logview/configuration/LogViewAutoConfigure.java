@@ -4,7 +4,6 @@ import com.sallai.logview.controller.LogViewController;
 import com.sallai.logview.property.LogViewProperty;
 import com.sallai.logview.service.LogService;
 import com.sallai.logview.support.http.LogViewServlet;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
@@ -16,11 +15,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @ClassName LogViewAutoConfigure
- * @Description TODO
- * @Author sallai
- * @Date 15:38 2023/11/5
- * @Version 1.0
+ * @className LogViewAutoConfigure
+ * @description TODO
+ * @author sallai
+ * @date 15:38 2023/11/5
+ * @version 1.0
  **/
 @Configuration
 @ConditionalOnWebApplication
