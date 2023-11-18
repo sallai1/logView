@@ -1,0 +1,157 @@
+2023-11-15 00:01:19.381  INFO 35304 --- [http-nio-8080-exec-2] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:04:54.102  INFO 14484 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 14484 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:04:54.106  INFO 14484 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:04:55.038  INFO 14484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:04:55.049  INFO 14484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:04:55.051  INFO 14484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:04:55.158  INFO 14484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:04:55.159  INFO 14484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2023-11-15 00:04:55.700  INFO 14484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:04:55.715  INFO 14484 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 2.036 seconds (JVM running for 2.949)
+2023-11-15 00:05:01.826  INFO 14484 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:05:01.827  INFO 14484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:05:01.829  INFO 14484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15 00:05:01.861  INFO 14484 --- [http-nio-8080-exec-2] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:05:21.984  INFO 35412 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 35412 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:05:21.990  INFO 35412 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:05:22.874  INFO 35412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:05:22.882  INFO 35412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:05:22.882  INFO 35412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:05:22.990  INFO 35412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:05:22.991  INFO 35412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 946 ms
+2023-11-15 00:05:23.550  INFO 35412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:05:23.562  INFO 35412 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.982 seconds (JVM running for 2.871)
+2023-11-15 00:05:32.286  INFO 35412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:05:32.286  INFO 35412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:05:32.287  INFO 35412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-11-15 00:05:32.314  INFO 35412 --- [http-nio-8080-exec-1] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:05:37.710  INFO 35412 --- [http-nio-8080-exec-5] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:06:09.230  INFO 35412 --- [http-nio-8080-exec-4] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:06:18.051  WARN 35412 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [223] milliseconds.
+2023-11-15 00:06:18.412  INFO 35412 --- [http-nio-8080-exec-7] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:07:13.170  INFO 35412 --- [http-nio-8080-exec-3] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:07:40.030  INFO 35412 --- [http-nio-8080-exec-10] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:10:15.587  INFO 35412 --- [http-nio-8080-exec-9] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:11:07.229  INFO 35412 --- [http-nio-8080-exec-9] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:11:20.317  INFO 20120 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 20120 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:11:20.319  INFO 20120 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:11:21.204  INFO 20120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:11:21.212  INFO 20120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:11:21.212  INFO 20120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:11:21.308  INFO 20120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:11:21.308  INFO 20120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2023-11-15 00:11:21.837  INFO 20120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:11:21.852  INFO 20120 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.914 seconds (JVM running for 2.767)
+2023-11-15 00:11:35.964  INFO 20120 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:11:35.965  INFO 20120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:11:35.966  INFO 20120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 00:11:35.994  INFO 20120 --- [http-nio-8080-exec-2] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:11:37.053  INFO 20120 --- [http-nio-8080-exec-1] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:11:38.025  INFO 20120 --- [http-nio-8080-exec-7] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:11:55.357  INFO 20120 --- [http-nio-8080-exec-8] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:19:23.432  INFO 13212 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 13212 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:19:23.435  INFO 13212 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:19:24.268  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:19:24.277  INFO 13212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:19:24.277  INFO 13212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:19:24.378  INFO 13212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:19:24.378  INFO 13212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2023-11-15 00:19:24.946  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:19:24.960  INFO 13212 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.896 seconds (JVM running for 2.902)
+2023-11-15 00:19:27.315  INFO 13212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:19:27.316  INFO 13212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:19:27.318  INFO 13212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 00:30:10.556  INFO 35956 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 35956 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:30:10.560  INFO 35956 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:30:11.564  INFO 35956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:30:11.574  INFO 35956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:30:11.574  INFO 35956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:30:11.688  INFO 35956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:30:11.688  INFO 35956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2023-11-15 00:30:12.239  INFO 35956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:30:12.254  INFO 35956 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 2.127 seconds (JVM running for 3.054)
+2023-11-15 00:30:26.622  INFO 35956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:30:26.624  INFO 35956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:30:26.625  INFO 35956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 00:44:29.332  WARN 35956 --- [http-nio-8080-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+2023-11-15 00:50:04.960  INFO 41136 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 41136 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:50:04.964  INFO 41136 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:50:05.856  INFO 41136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:50:05.865  INFO 41136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:50:05.865  INFO 41136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:50:05.970  INFO 41136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:50:05.970  INFO 41136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 953 ms
+2023-11-15 00:50:06.499  INFO 41136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:50:06.512  INFO 41136 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.997 seconds (JVM running for 3.006)
+2023-11-15 00:50:16.975  WARN 41136 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+2023-11-15 00:50:17.542  INFO 41136 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:50:17.543  INFO 41136 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:50:17.544  INFO 41136 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 00:50:17.571  INFO 41136 --- [http-nio-8080-exec-2] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 00:50:31.568  INFO 40196 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 40196 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 00:50:31.575  INFO 40196 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 00:50:32.476  INFO 40196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 00:50:32.485  INFO 40196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 00:50:32.486  INFO 40196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 00:50:32.601  INFO 40196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 00:50:32.601  INFO 40196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2023-11-15 00:50:33.131  INFO 40196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 00:50:33.143  INFO 40196 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.995 seconds (JVM running for 2.839)
+2023-11-15 00:50:36.445  INFO 40196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 00:50:36.446  INFO 40196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 00:50:36.448  INFO 40196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15 01:00:38.139  WARN 40196 --- [http-nio-8080-exec-7] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [192] milliseconds.
+2023-11-15 01:00:38.332  INFO 40196 --- [http-nio-8080-exec-3] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 01:00:48.155  INFO 40196 --- [http-nio-8080-exec-2] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 01:00:48.705  INFO 40196 --- [http-nio-8080-exec-1] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 01:00:49.183  INFO 40196 --- [http-nio-8080-exec-4] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 01:00:49.793  INFO 40196 --- [http-nio-8080-exec-7] com.sallai.logview.service.LogService    : logs/sallai.log
+2023-11-15 01:05:28.098  INFO 40384 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 40384 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 01:05:28.100  INFO 40384 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 01:05:28.999  INFO 40384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 01:05:29.008  INFO 40384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 01:05:29.010  INFO 40384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 01:05:29.136  INFO 40384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 01:05:29.137  INFO 40384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2023-11-15 01:05:29.700  INFO 40384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 01:05:29.718  INFO 40384 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 2.034 seconds (JVM running for 2.924)
+2023-11-15 01:05:44.511  WARN 40384 --- [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [230] milliseconds.
+2023-11-15 01:05:44.930  INFO 40384 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 01:05:44.930  INFO 40384 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 01:05:44.932  INFO 40384 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15 01:08:28.236  INFO 18740 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 18740 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 01:08:28.240  INFO 18740 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 01:08:29.136  INFO 18740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 01:08:29.148  INFO 18740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 01:08:29.148  INFO 18740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 01:08:29.261  INFO 18740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 01:08:29.262  INFO 18740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 968 ms
+2023-11-15 01:08:29.844  INFO 18740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 01:08:29.858  INFO 18740 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.979 seconds (JVM running for 3.205)
+2023-11-15 01:08:33.610  INFO 18740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 01:08:33.611  INFO 18740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 01:08:33.612  INFO 18740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 01:08:45.223  WARN 18740 --- [http-nio-8080-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [240] milliseconds.
+2023-11-15 23:36:47.287  INFO 37448 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 37448 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 23:36:47.290  INFO 37448 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 23:36:48.175  INFO 37448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 23:36:48.185  INFO 37448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 23:36:48.186  INFO 37448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 23:36:48.303  INFO 37448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 23:36:48.303  INFO 37448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 963 ms
+2023-11-15 23:36:48.842  INFO 37448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 23:36:48.852  INFO 37448 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 1.965 seconds (JVM running for 2.882)
+2023-11-15 23:43:23.661  INFO 32932 --- [main] com.sallai.logview.LogViewApplication    : Starting LogViewApplication using Java 13.0.2 on LAPTOP-UJA7Q4HM with PID 32932 (D:\project\service\java\logView\target\classes started by sallai in D:\project\service\java\logView)
+2023-11-15 23:43:23.664  INFO 32932 --- [main] com.sallai.logview.LogViewApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-15 23:43:24.537  INFO 32932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15 23:43:24.551  INFO 32932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15 23:43:24.552  INFO 32932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-11-15 23:43:24.704  INFO 32932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15 23:43:24.704  INFO 32932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2023-11-15 23:43:25.010  WARN 32932 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-15 23:43:25.267  INFO 32932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15 23:43:25.283  INFO 32932 --- [main] com.sallai.logview.LogViewApplication    : Started LogViewApplication in 2.079 seconds (JVM running for 3.229)
+2023-11-15 23:43:50.850  INFO 32932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 23:43:50.851  INFO 32932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15 23:43:50.852  INFO 32932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15 23:44:03.187  WARN 32932 --- [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [215] milliseconds.
